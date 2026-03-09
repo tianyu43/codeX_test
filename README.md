@@ -1,6 +1,6 @@
-﻿# Remote Sensing Time-Series Classification with LSTM
+﻿# codeX_test
 
-This repository contains a PyTorch LSTM pipeline for binary classification on remote sensing time-series data stored as NumPy arrays.
+`codeX_test` is a PyTorch LSTM pipeline for binary classification on remote sensing time-series data stored as NumPy arrays.
 
 The current project setup is designed for large `.npy` files and uses memory-mapped loading so the full dataset does not need to fit into RAM at once.
 
@@ -53,22 +53,13 @@ conda run -n pyt20 python train.py --config configs/train/smoke.json
 |   `-- runtime.py
 |-- train.py
 |-- evaluate_holdout.py
-|-- train_lstm_classifier.py
-|-- eval_test_holdout.py
 `-- .gitignore
 ```
 
 ## Main Entry Points
 
-Training:
-
 - `train.py`: main training entrypoint
-- `train_lstm_classifier.py`: compatibility wrapper that forwards to `train.py`
-
-Evaluation:
-
 - `evaluate_holdout.py`: evaluate a saved checkpoint on a stratified holdout set
-- `eval_test_holdout.py`: compatibility wrapper that forwards to `evaluate_holdout.py`
 
 ## Configuration Style
 
