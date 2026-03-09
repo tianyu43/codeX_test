@@ -1,0 +1,6 @@
+﻿{
+  "checkpoint": "artifacts/best_lstm_confirm_800k.pt",
+  "output": "artifacts/test_metrics_800k_holdout.json",
+  "test_size": 200000,
+  "batch_size": 1024
+}

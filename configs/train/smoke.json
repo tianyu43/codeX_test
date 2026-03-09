@@ -1,0 +1,21 @@
+﻿{
+  "x_path": "data/x_sr_s.npy",
+  "y_path": "data/label.npy",
+  "sample_size": 2000,
+  "val_ratio": 0.2,
+  "max_stats_samples": 50000,
+  "standardize": true,
+  "batch_size": 128,
+  "epochs": 1,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "hidden_size": 64,
+  "num_layers": 1,
+  "dropout": 0.2,
+  "bidirectional": false,
+  "grad_clip": 1.0,
+  "num_workers": 0,
+  "seed": 42,
+  "output": "artifacts/refactor_smoke_from_config.pt",
+  "history_json": "artifacts/refactor_smoke_from_config.json"
+}
